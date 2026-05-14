@@ -3,43 +3,55 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OCI Architect Associate ΓÇö ExaGuru Training Portal</title>
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<title>ExaGuru OCI Architect Associate ΓÇö Learning Studio</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 /* ΓòÉΓòÉΓòÉ THEME ΓòÉΓòÉΓòÉ */
 :root,[data-theme="dark"]{
-  --bg-primary:#080d1a;--bg-secondary:#0f1526;--bg-card:#141c30;
-  --bg-card-hover:#1a2340;--bg-elevated:#1e2845;--border:#263050;
-  --border-hover:#3a4570;--text-primary:#e4e9f5;--text-secondary:#8a94b8;
-  --text-muted:#4a5478;--text-white:#ffffff;
-  --brand:#1565C0;--brand-hover:#1976D2;--brand-light:#42A5F5;
-  --accent-blue:#1565C0;--accent-green:#10b981;--accent-cyan:#06b6d4;
-  --accent-purple:#8b5cf6;--accent-orange:#f59e0b;--accent-red:#ef4444;
-  --mod-overview:#1565C0;--mod-iam:#8b5cf6;--mod-net:#06b6d4;
-  --mod-compute:#f59e0b;--mod-storage:#10b981;--mod-db:#ef4444;
-  --mod-exadata:#c74634;--mod-labs:#ec4899;
-  --shadow:0 4px 24px rgba(0,0,0,0.5);--code-bg:#0a0e1a;
-  --grid-dot:rgba(255,255,255,0.025);
-  --topnav-bg:linear-gradient(135deg,#0a1628 0%,#080d1a 100%);
-  --info-bg:rgba(21,101,192,0.08);--info-border:rgba(21,101,192,0.22);
+  --bg-primary:#070b12;--bg-secondary:#0c121c;--bg-card:rgba(18,26,40,.72);
+  --bg-card-hover:rgba(24,34,52,.88);--bg-elevated:rgba(16,24,38,.9);--border:rgba(120,144,180,.22);
+  --border-hover:rgba(148,168,210,.38);--text-primary:#e8edf7;--text-secondary:#94a3b8;
+  --text-muted:#5c6b82;--text-white:#f8fafc;
+  --brand:#0b6bcb;--brand-hover:#1276d6;--brand-light:#38bdf8;
+  --accent-blue:#0b6bcb;--accent-green:#22c55e;--accent-cyan:#22d3ee;
+  --accent-purple:#64748b;--accent-orange:#f59e0b;--accent-red:#f87171;
+  --mod-overview:#2563eb;--mod-iam:#14b8a6;--mod-net:#0ea5e9;
+  --mod-compute:#f59e0b;--mod-storage:#34d399;--mod-db:#fb7185;
+  --mod-exadata:#c2410c;--mod-labs:#f472b6;
+  --shadow:0 18px 50px rgba(0,0,0,.45);--code-bg:#05080f;
+  --grid-dot:rgba(255,255,255,0.028);
+  --topnav-bg:rgba(10,16,28,.78);
+  --glass-blur:18px;
+  --info-bg:rgba(11,107,203,0.09);--info-border:rgba(56,189,248,0.28);
   --warn-bg:rgba(245,158,11,0.08);--warn-border:rgba(245,158,11,0.22);
-  --tip-bg:rgba(16,185,129,0.08);--tip-border:rgba(16,185,129,0.22);
-  --ai-bg:rgba(21,101,192,0.06);--ai-border:rgba(21,101,192,0.25);
+  --tip-bg:rgba(34,197,94,0.08);--tip-border:rgba(34,197,94,0.22);
+  --ai-bg:rgba(11,107,203,0.07);--ai-border:rgba(56,189,248,0.28);
 }
 [data-theme="light"]{
-  --bg-primary:#f0f4fc;--bg-secondary:#ffffff;--bg-card:#ffffff;
-  --bg-card-hover:#f5f7ff;--bg-elevated:#e8edf8;--border:#d0d8ee;
-  --border-hover:#a8b4d0;--text-primary:#1a1f36;--text-secondary:#5c6484;
-  --text-muted:#9ba3bf;--text-white:#1a1f36;--grid-dot:rgba(0,0,0,0.03);
-  --shadow:0 4px 24px rgba(0,0,0,0.08);--code-bg:#f0f4fc;
-  --topnav-bg:linear-gradient(135deg,#0a1628 0%,#1565C0 100%);
-  --info-bg:rgba(21,101,192,0.05);--info-border:rgba(21,101,192,0.18);
-  --warn-bg:rgba(245,158,11,0.05);--warn-border:rgba(245,158,11,0.18);
-  --tip-bg:rgba(16,185,129,0.05);--tip-border:rgba(16,185,129,0.18);
-  --ai-bg:rgba(21,101,192,0.05);--ai-border:rgba(21,101,192,0.2);
+  --bg-primary:#f4f6fb;--bg-secondary:#ffffff;--bg-card:rgba(255,255,255,.92);
+  --bg-card-hover:#f1f5fd;--bg-elevated:#eef2fb;--border:rgba(15,23,42,.12);
+  --border-hover:rgba(15,23,42,.2);--text-primary:#0f172a;--text-secondary:#475569;
+  --text-muted:#64748b;--text-white:#0f172a;--grid-dot:rgba(15,23,42,0.04);
+  --shadow:0 14px 40px rgba(15,23,42,.08);--code-bg:#f1f5f9;
+  --topnav-bg:rgba(255,255,255,.86);
+  --info-bg:rgba(11,107,203,0.06);--info-border:rgba(11,107,203,0.2);
+  --warn-bg:rgba(245,158,11,0.06);--warn-border:rgba(245,158,11,0.18);
+  --tip-bg:rgba(34,197,94,0.06);--tip-border:rgba(34,197,94,0.18);
+  --ai-bg:rgba(11,107,203,0.06);--ai-border:rgba(11,107,203,0.22);
 }
 *{margin:0;padding:0;box-sizing:border-box;}
-body{background:var(--bg-primary);color:var(--text-primary);font-family:'Plus Jakarta Sans','DM Sans',sans-serif;min-height:100vh;transition:background .3s,color .3s;}
+html{scroll-behavior:smooth;}
+body{
+  background:radial-gradient(1200px 600px at 12% -10%,rgba(11,107,203,.16),transparent 55%),
+    radial-gradient(900px 500px at 88% 0%,rgba(14,165,233,.1),transparent 50%),
+    var(--bg-primary);
+  color:var(--text-primary);
+  font-family:'DM Sans',system-ui,sans-serif;
+  min-height:100vh;
+  transition:background .35s ease,color .25s ease;
+  font-size:15px;
+  -webkit-font-smoothing:antialiased;
+}
 
 /* ΓòÉΓòÉΓòÉ TOPNAV ΓòÉΓòÉΓòÉ */
 .topnav{background:var(--topnav-bg);border-bottom:3px solid var(--brand);padding:0 14px;height:52px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:200;gap:8px;overflow:hidden;}
@@ -228,9 +240,117 @@ body{background:var(--bg-primary);color:var(--text-primary);font-family:'Plus Ja
 /* ΓòÉΓòÉΓòÉ FOOTER ΓòÉΓòÉΓòÉ */
 .footer{text-align:center;padding:32px 0 16px;font-size:11px;color:var(--text-muted);border-top:1px solid var(--border);margin-top:40px;}
 .footer a{color:var(--brand);text-decoration:none;}
+
+/* === Learning Studio (syllabus-aligned refresh) === */
+.font-serif{font-family:'Newsreader',Georgia,serif;font-weight:500;letter-spacing:-0.02em;}
+.topnav{
+  backdrop-filter:saturate(140%) blur(var(--glass-blur));
+  -webkit-backdrop-filter:saturate(140%) blur(var(--glass-blur));
+  background:var(--topnav-bg)!important;
+  border-bottom:1px solid var(--border);
+  box-shadow:0 1px 0 rgba(255,255,255,.04) inset;
+}
+.tab-container{
+  backdrop-filter:blur(12px);
+  -webkit-backdrop-filter:blur(12px);
+  background:color-mix(in srgb,var(--bg-secondary) 88%,transparent)!important;
+}
+.tab-btn{position:relative;transition:color .2s ease,transform .2s ease,border-color .2s ease;}
+.tab-btn::after{
+  content:"";position:absolute;left:12%;right:12%;bottom:0;height:2px;background:linear-gradient(90deg,transparent,var(--brand-light),transparent);
+  opacity:0;transform:scaleX(.4);transition:opacity .25s ease,transform .25s ease;
+}
+.tab-btn:hover{transform:translateY(-1px);}
+.tab-btn.active::after{opacity:1;transform:scaleX(1);}
+.card,.mod-card,.week-card,.spec-card,.quiz-q{
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+}
+.mod-card,.spec-card,.week-card{transition:transform .28s ease,box-shadow .28s ease,border-color .2s ease;}
+.mod-card:active{transform:translateY(-1px) scale(.995);}
+.studio-hero{
+  margin:0 auto;max-width:1440px;padding:28px 20px 8px;
+}
+.studio-hero-inner{
+  position:relative;overflow:hidden;border-radius:18px;
+  padding:clamp(22px,4vw,40px) clamp(20px,3vw,44px);
+  border:1px solid var(--border);
+  background:linear-gradient(135deg,color-mix(in srgb,var(--bg-card) 92%,#0b6bcb 8%) 0%,color-mix(in srgb,var(--bg-card) 94%,#0ea5e9 6%) 100%);
+  box-shadow:var(--shadow);
+}
+.studio-hero-inner::before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(600px 220px at 18% 0%,rgba(56,189,248,.18),transparent 60%);
+  opacity:.85;
+}
+.studio-hero-inner > *{position:relative;z-index:1;}
+.hero-kicker{font-size:11px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--text-muted);margin-bottom:10px;}
+.hero-title{font-size:clamp(26px,4vw,40px);line-height:1.12;color:var(--text-white);font-weight:700;}
+.hero-title em{font-style:italic;font-family:'Newsreader',Georgia,serif;font-weight:500;color:color-mix(in srgb,var(--text-white) 92%,var(--brand-light) 8%);}
+.hero-lead{max-width:62ch;margin-top:14px;font-size:14px;line-height:1.65;color:var(--text-secondary);}
+.hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;}
+.hero-btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  padding:10px 18px;border-radius:10px;font-size:13px;font-weight:600;font-family:inherit;
+  cursor:pointer;text-decoration:none;border:1px solid transparent;transition:transform .2s ease,box-shadow .2s ease,background .2s ease;
+}
+.hero-btn.primary{
+  background:linear-gradient(135deg,var(--brand),#0369a1);
+  color:#fff;box-shadow:0 10px 28px rgba(11,107,203,.35);
+}
+.hero-btn.primary:hover{transform:translateY(-2px);box-shadow:0 14px 34px rgba(11,107,203,.45);}
+.hero-btn.ghost{
+  background:color-mix(in srgb,var(--bg-elevated) 70%,transparent);
+  border-color:var(--border);color:var(--text-primary);
+}
+.hero-btn.ghost:hover{border-color:var(--border-hover);}
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .65s cubic-bezier(.22,1,.36,1);transition-delay:var(--reveal-delay,0ms);}
+.reveal.reveal-in{opacity:1;transform:none;}
+.stagger-children > .reveal:nth-child(1){--reveal-delay:0ms;}
+.stagger-children > .reveal:nth-child(2){--reveal-delay:55ms;}
+.stagger-children > .reveal:nth-child(3){--reveal-delay:110ms;}
+.stagger-children > .reveal:nth-child(4){--reveal-delay:165ms;}
+.stagger-children > .reveal:nth-child(5){--reveal-delay:220ms;}
+.stagger-children > .reveal:nth-child(6){--reveal-delay:275ms;}
+.stagger-children > .reveal:nth-child(7){--reveal-delay:330ms;}
+.stagger-children > .reveal:nth-child(8){--reveal-delay:385ms;}
+.syllabus-track{display:grid;gap:10px;margin-top:14px;}
+.syllabus-row{
+  display:grid;grid-template-columns:minmax(120px,150px) 1fr;gap:12px;padding:12px 14px;border-radius:12px;
+  border:1px solid var(--border);background:color-mix(in srgb,var(--bg-elevated) 85%,transparent);
+}
+@media(max-width:640px){.syllabus-row{grid-template-columns:1fr;}}
+.syllabus-mod{font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--brand-light);}
+.syllabus-body{font-size:13px;line-height:1.55;color:var(--text-secondary);}
+.spec-val,.tbl .mono{font-family:'JetBrains Mono',monospace;}
+.arch-canvas{background:color-mix(in srgb,var(--bg-card) 94%,#0b6bcb 6%);}
+
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto;}
+  .reveal,.reveal.reveal-in{opacity:1!important;transform:none!important;transition:none!important;}
+  .tab-btn,.tab-btn::after,.mod-card,.hero-btn,.fstep-body{transition:none!important;}
+  .tab-btn:hover,.mod-card:hover,.hero-btn:hover{transform:none!important;}
+  .dot{animation:none!important;}
+}
+
+</style>
+<style id="exaguru-coupon-ribbon">
+.exaguru-coupon-ribbon-wrap{position:sticky;top:0;z-index:210;background:#0b5c4a;color:#f0fdf4;border-bottom:1px solid #022c22;font-size:13px;line-height:1.4;}
+.exaguru-coupon-ribbon{max-width:1440px;margin:0 auto;padding:8px 14px;display:flex;align-items:center;justify-content:center;text-align:center;}
+.exaguru-coupon-ribbon__text{color:#ecfdf5;}
+.exaguru-coupon-ribbon__lead{font-weight:800;}
+.exaguru-coupon-ribbon__link{color:#fff;font-weight:700;text-decoration:underline;text-underline-offset:2px;}
+.exaguru-coupon-ribbon__link:focus-visible{outline:2px solid #fde047;outline-offset:2px;}
+body:has(> .exaguru-coupon-ribbon-wrap) .topnav{top:42px;}
+body:has(> .exaguru-coupon-ribbon-wrap) .tab-container{top:94px;}
 </style>
 </head>
 <body>
+<div class="exaguru-coupon-ribbon-wrap" role="region" aria-label="Course discount offer">
+  <div class="exaguru-coupon-ribbon">
+    <span class="exaguru-coupon-ribbon__text"><span class="exaguru-coupon-ribbon__lead">Coupon / course discount:</span> message <strong>Ajay</strong> on <a class="exaguru-coupon-ribbon__link" href="https://wa.me/916392191364?text=Hi%20Ajay%2C%20I%20am%20interested%20in%20the%20OCI%20Architect%20Associate%20course.%20Can%20we%20book%20a%20call%3F" target="_blank" rel="noopener noreferrer">WhatsApp</a> or call <a class="exaguru-coupon-ribbon__link" href="tel:+916392191364">+91-6392191364</a>.</span>
+  </div>
+</div>
 
 <!-- TOPNAV -->
 <nav class="topnav">
@@ -246,6 +366,19 @@ body{background:var(--bg-primary);color:var(--text-primary);font-family:'Plus Ja
     <button class="btn-ctrl" onclick="window.print()">≡ƒôä PDF</button>
   </div>
 </nav>
+
+<header class="studio-hero reveal reveal-in" aria-label="ExaGuru OCI learning studio">
+  <div class="studio-hero-inner">
+    <p class="hero-kicker">Oracle Cloud Infrastructure ┬╖ ExaGuru syllabus track</p>
+    <h1 class="hero-title">Architect Associate <em>Learning Studio</em></h1>
+    <p class="hero-lead">A 50-hour practitioner program shaped around the official ExaGuru OCI Architect Associate syllabus: deployment models and core services, identity, networking, compute, storage, load balancing, databases, and guided labsΓÇöincluding Exadata patching context and bonus CellCLI practice where noted in the syllabus.</p>
+    <div class="hero-actions">
+      <button type="button" class="hero-btn primary" onclick="switchTab('schedule')">View module path</button>
+      <button type="button" class="hero-btn ghost" onclick="switchTab('labs')">Hands-on labs</button>
+      <span class="hero-btn ghost">Email support@exaguru.com</span>
+    </div>
+  </div>
+</header>
 
 <!-- TABS -->
 <div class="tab-container">
@@ -270,93 +403,117 @@ body{background:var(--bg-primary);color:var(--text-primary);font-family:'Plus Ja
      Γòæ  OVERVIEW               Γòæ
      ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥ -->
 <div id="p-overview" class="panel active">
-  <div class="sec-hdr">
-    <h2>OCI Architect Associate ΓÇö Course Overview</h2>
+  <div class="sec-hdr reveal">
+    <h2>Syllabus-aligned studio path</h2>
     <span class="badge">ExaGuru</span>
     <span class="badge badge-cyan">50 Hours</span>
     <span class="badge badge-green">1Z0-1085</span>
   </div>
 
-  <div class="info">
-    <strong>≡ƒÄ» About This Course:</strong> A comprehensive exploration of all technical aspects of Oracle Cloud Infrastructure. Custom-designed by ExaGuru Architects, incorporating practical implementations and live scenarios from global customer deployments including Exadata Cloud at Customer (ExaCC) and Exadata Cloud Service (ExaCS).
+  <div class="info reveal">
+    <strong>About this studio:</strong> Mirrors the ExaGuru <em>OCI Architect Associate</em> syllabusΓÇöOracle Cloud technical stack with implementations and scenarios drawn from real customer work. Expectations from the syllabus include building proficiency with Exadata Cloud at Customer and Exadata Cloud Service <strong>alongside</strong> core OCI foundations; outcomes always depend on your practice and Oracle&rsquo;s current exam guides.
+  </div>
+  <div class="info tip reveal">
+    <strong>What you&rsquo;ll leave with (from the syllabus):</strong> clearer judgment across tenancy structure, IAM, VCN design, compute and storage services, load balancing, database services on OCI, and repeated hands-on reps. Bonuses listed in the syllabus include expert lab packs, LMS video access, interview strategy sessions, certification Q&amp;A material, lifetime private community access, and optional CellCLI practice on a constrained lab VM (&ldquo;cracked&rdquo; VM supporting a subset of commandsΓÇösee syllabus).
   </div>
 
-  <div class="mod-grid">
-    <div class="mod-card" style="--mod-color:var(--mod-overview)" onclick="switchTab('overview')">
-      <div class="mod-num">Module 1</div>
-      <div class="mod-name">Cloud Overview & OCI Concepts</div>
-      <div class="mod-sub">Traditional DC vs Cloud, OCI vs ExaCS vs ExaCC, Tenancy, Regions, Compartments, IAM intro</div>
+  <div class="mod-grid stagger-children">
+    <div class="mod-card reveal" style="--mod-color:var(--mod-overview)" onclick="switchTab('overview')">
+      <div class="mod-num">Syllabus ┬╖ Module 1</div>
+      <div class="mod-name">Oracle Cloud overview &amp; deployment models</div>
+      <div class="mod-sub">Traditional data centers vs cloud; public, private, hybrid; OCI IaaS; OCI vs OCI Classic vs ExaCS vs ExaCC; tenancy, region, compartments, AD; compute, network, storage, IAM map; create your cloud account.</div>
       <div class="mod-meta">
-        <span class="mod-tag" style="background:rgba(21,101,192,.15);color:var(--mod-overview)">Tenancy</span>
-        <span class="mod-tag" style="background:rgba(21,101,192,.15);color:var(--mod-overview)">Regions</span>
-        <span class="mod-tag" style="background:rgba(21,101,192,.15);color:var(--mod-overview)">Compartments</span>
+        <span class="mod-tag" style="background:rgba(37,99,235,.15);color:var(--mod-overview)">Tenancy</span>
+        <span class="mod-tag" style="background:rgba(37,99,235,.15);color:var(--mod-overview)">Regions</span>
+        <span class="mod-tag" style="background:rgba(37,99,235,.15);color:var(--mod-overview)">Compartments</span>
       </div>
     </div>
-    <div class="mod-card" style="--mod-color:var(--mod-iam)" onclick="switchTab('iam')">
-      <div class="mod-num">Module 2</div>
-      <div class="mod-name">Identity & Access Management</div>
-      <div class="mod-sub">IAM Users, Instance Principals, Auth/Authz, Policies, Federation, Tagging</div>
+    <div class="mod-card reveal" style="--mod-color:var(--mod-iam)" onclick="switchTab('iam')">
+      <div class="mod-num">Module 2 + Lab</div>
+      <div class="mod-name">Identity &amp; Access Management</div>
+      <div class="mod-sub">Users &amp; instance principals, authentication vs authorization, policies, federation, taggingΓÇöthen lab: account setup, IAM dashboard walkthrough, compartments, users, groups, policies, assignments.</div>
       <div class="mod-meta">
-        <span class="mod-tag" style="background:rgba(139,92,246,.15);color:var(--mod-iam)">Policies</span>
-        <span class="mod-tag" style="background:rgba(139,92,246,.15);color:var(--mod-iam)">Federation</span>
-        <span class="mod-tag" style="background:rgba(139,92,246,.15);color:var(--mod-iam)">Groups</span>
+        <span class="mod-tag" style="background:rgba(20,184,166,.15);color:var(--mod-iam)">Policies</span>
+        <span class="mod-tag" style="background:rgba(20,184,166,.15);color:var(--mod-iam)">Federation</span>
+        <span class="mod-tag" style="background:rgba(20,184,166,.15);color:var(--mod-iam)">Hands-on IAM</span>
       </div>
     </div>
-    <div class="mod-card" style="--mod-color:var(--mod-net)" onclick="switchTab('networking')">
-      <div class="mod-num">Module 3</div>
-      <div class="mod-name">Networking & VCN</div>
-      <div class="mod-sub">VCN, CIDR, Subnets, IGW, DRG, Security Lists, VPN, FastConnect, DNS</div>
+    <div class="mod-card reveal" style="--mod-color:var(--mod-net)" onclick="switchTab('networking')">
+      <div class="mod-num">Module 3 + Lab</div>
+      <div class="mod-name">Networking &amp; VCN</div>
+      <div class="mod-sub">VCN &amp; CIDR, subnets &amp; routing, IGW/DRG, stateful vs stateless security lists, VPN &amp; FastConnect, DNSΓÇöthen VCN lab practices for IGW, route tables, and security lists.</div>
       <div class="mod-meta">
-        <span class="mod-tag" style="background:rgba(6,182,212,.15);color:var(--mod-net)">VCN</span>
-        <span class="mod-tag" style="background:rgba(6,182,212,.15);color:var(--mod-net)">FastConnect</span>
-        <span class="mod-tag" style="background:rgba(6,182,212,.15);color:var(--mod-net)">NSG</span>
+        <span class="mod-tag" style="background:rgba(14,165,233,.15);color:var(--mod-net)">VCN</span>
+        <span class="mod-tag" style="background:rgba(14,165,233,.15);color:var(--mod-net)">Routing</span>
+        <span class="mod-tag" style="background:rgba(14,165,233,.15);color:var(--mod-net)">Lab</span>
       </div>
     </div>
-    <div class="mod-card" style="--mod-color:var(--mod-compute)" onclick="switchTab('compute')">
-      <div class="mod-num">Module 4</div>
-      <div class="mod-name">OCI Compute</div>
-      <div class="mod-sub">Bare Metal, VMs, Shapes, Custom Images, HA, Fault Domains, Load Balancer</div>
+    <div class="mod-card reveal" style="--mod-color:var(--mod-compute)" onclick="switchTab('compute')">
+      <div class="mod-num">Module 4 + Lab</div>
+      <div class="mod-name">Beginner OCI compute</div>
+      <div class="mod-sub">Bare metal &amp; VM overview, shapes (Standard, HighIO, DenseIO, GPU), lifecycle &amp; billing images, boot &amp; block scope, provisioningΓÇöthen lab: SSH keys and web server on a compute instance.</div>
       <div class="mod-meta">
-        <span class="mod-tag" style="background:rgba(245,158,11,.15);color:var(--mod-compute)">Bare Metal</span>
         <span class="mod-tag" style="background:rgba(245,158,11,.15);color:var(--mod-compute)">Shapes</span>
-        <span class="mod-tag" style="background:rgba(245,158,11,.15);color:var(--mod-compute)">HA/DR</span>
+        <span class="mod-tag" style="background:rgba(245,158,11,.15);color:var(--mod-compute)">Lifecycle</span>
+        <span class="mod-tag" style="background:rgba(245,158,11,.15);color:var(--mod-compute)">Lab</span>
       </div>
     </div>
-    <div class="mod-card" style="--mod-color:var(--mod-storage)" onclick="switchTab('storage')">
+    <div class="mod-card reveal" style="--mod-color:var(--mod-storage)" onclick="switchTab('storage')">
       <div class="mod-num">Module 5</div>
-      <div class="mod-name">Block, Object & File Storage</div>
-      <div class="mod-sub">Block Volume lifecycle, Object Storage tiers, File Storage, Backup/Restore</div>
+      <div class="mod-name">Block, object &amp; file services</div>
+      <div class="mod-sub">Storage portfolio, block attach/detach &amp; performance, object tiers &amp; pre-auth access, file storage paths &amp; securityΓÇöaligned to the syllabus storage depth before load balancer topics.</div>
       <div class="mod-meta">
-        <span class="mod-tag" style="background:rgba(16,185,129,.15);color:var(--mod-storage)">Block</span>
-        <span class="mod-tag" style="background:rgba(16,185,129,.15);color:var(--mod-storage)">Object</span>
-        <span class="mod-tag" style="background:rgba(16,185,129,.15);color:var(--mod-storage)">File</span>
+        <span class="mod-tag" style="background:rgba(52,211,153,.15);color:var(--mod-storage)">Block</span>
+        <span class="mod-tag" style="background:rgba(52,211,153,.15);color:var(--mod-storage)">Object</span>
+        <span class="mod-tag" style="background:rgba(52,211,153,.15);color:var(--mod-storage)">File</span>
       </div>
     </div>
-    <div class="mod-card" style="--mod-color:var(--mod-db)" onclick="switchTab('database')">
+    <div class="mod-card reveal" style="--mod-color:var(--mod-compute)" onclick="switchTab('storage')">
+      <div class="mod-num">Module 5 (cont.) + Lab</div>
+      <div class="mod-name">Load balancer service</div>
+      <div class="mod-sub">Concepts, public vs private LB, policies, health checks, traffic distribution, shapesΓÇöthen lab building VCN, public subnets, instances, LB, route tables, backend sets, listeners, and traffic rules per syllabus.</div>
+      <div class="mod-meta">
+        <span class="mod-tag" style="background:rgba(245,158,11,.18);color:var(--mod-compute)">LB policies</span>
+        <span class="mod-tag" style="background:rgba(245,158,11,.18);color:var(--mod-compute)">Health checks</span>
+        <span class="mod-tag" style="background:rgba(245,158,11,.18);color:var(--mod-compute)">Lab</span>
+      </div>
+    </div>
+    <div class="mod-card reveal" style="--mod-color:var(--mod-compute)" onclick="switchTab('compute')">
       <div class="mod-num">Module 6</div>
-      <div class="mod-name">Managing Databases on OCI</div>
-      <div class="mod-sub">VM/BM/Exadata DB Systems, Patching, Data Guard, Backup/Restore, BYOL</div>
+      <div class="mod-name">Advanced OCI compute</div>
+      <div class="mod-sub">Service recap, bare metal &amp; VMs, HA/DR, fault domains, instance pools &amp; configs, console connections, custom images &amp; import/export, BYOH (OVM/KVM/Hyper-V), cloud-init &amp; metadata.</div>
       <div class="mod-meta">
-        <span class="mod-tag" style="background:rgba(239,68,68,.15);color:var(--mod-db)">Data Guard</span>
-        <span class="mod-tag" style="background:rgba(239,68,68,.15);color:var(--mod-db)">Patching</span>
-        <span class="mod-tag" style="background:rgba(239,68,68,.15);color:var(--mod-db)">BYOL</span>
+        <span class="mod-tag" style="background:rgba(245,158,11,.15);color:var(--mod-compute)">HA / DR</span>
+        <span class="mod-tag" style="background:rgba(245,158,11,.15);color:var(--mod-compute)">Images</span>
+        <span class="mod-tag" style="background:rgba(245,158,11,.15);color:var(--mod-compute)">Pools</span>
       </div>
     </div>
-    <div class="mod-card" style="--mod-color:var(--mod-labs)" onclick="switchTab('labs')">
-      <div class="mod-num">Hands-on Labs</div>
-      <div class="mod-name">≡ƒö¼ 16 Practical Labs</div>
-      <div class="mod-sub">IAM, VCN, Compute, Storage, Load Balancer, Database ΓÇö all with step-by-step practice</div>
+    <div class="mod-card reveal" style="--mod-color:var(--mod-db)" onclick="switchTab('database')">
+      <div class="mod-num">Module 7 + Bonus</div>
+      <div class="mod-name">Managing databases on OCI</div>
+      <div class="mod-sub">VM/BM/Exadata DB systems, shapes, patching, backups, Data Guard, migration, pricing/BYOLΓÇöplus optional Exadata patching overview &amp; CellCLI practice on the syllabus bonus VM (subset of commands).</div>
       <div class="mod-meta">
-        <span class="mod-tag" style="background:rgba(236,72,153,.15);color:var(--mod-labs)">16 Labs</span>
-        <span class="mod-tag" style="background:rgba(236,72,153,.15);color:var(--mod-labs)">Hands-on</span>
-        <span class="mod-tag" style="background:rgba(236,72,153,.15);color:var(--mod-labs)">Live OCI</span>
+        <span class="mod-tag" style="background:rgba(251,113,133,.15);color:var(--mod-db)">Data Guard</span>
+        <span class="mod-tag" style="background:rgba(251,113,133,.15);color:var(--mod-db)">Patching</span>
+        <span class="mod-tag" style="background:rgba(196,65,12,.2);color:var(--mod-exadata)">CellCLI bonus</span>
       </div>
     </div>
+    <div class="mod-card reveal" style="--mod-color:var(--mod-labs)" onclick="switchTab('labs')">
+      <div class="mod-num">Hands-on lab overview</div>
+      <div class="mod-name">Integrated practice runway</div>
+      <div class="mod-sub">Syllabus lab list spans compartments, VCN objects, gateways, compute lifecycle &amp; moves, block &amp; object storage, policies/users/groups, and moreΓÇöuse the Labs tab for the full step library.</div>
+      <div class="mod-meta">
+        <span class="mod-tag" style="background:rgba(244,114,182,.15);color:var(--mod-labs)">Guided HOLs</span>
+        <span class="mod-tag" style="background:rgba(244,114,182,.15);color:var(--mod-labs)">Live tenancy</span>
+        <span class="mod-tag" style="background:rgba(244,114,182,.15);color:var(--mod-labs)">Experts</span>
+      </div>
+    </div>
+
   </div>
 
-  <div class="spec-grid" style="margin-top:24px;">
-    <div class="spec-card" style="--mod-color:var(--brand)">
-      <h3>≡ƒôï Course Details</h3>
+  <div class="spec-grid stagger-children" style="margin-top:24px;">
+    <div class="spec-card reveal" style="--mod-color:var(--brand)">
+      <h3>≡ƒôï Course details</h3>
       <div class="spec-row"><span class="spec-key">Instructor</span><span class="spec-val">ExaGuru Architects</span></div>
       <div class="spec-row"><span class="spec-key">Email</span><span class="spec-val">support@exaguru.com</span></div>
       <div class="spec-row"><span class="spec-key">Duration</span><span class="spec-val">50 Hours</span></div>
@@ -364,8 +521,8 @@ body{background:var(--bg-primary);color:var(--text-primary);font-family:'Plus Ja
       <div class="spec-row"><span class="spec-key">Mode</span><span class="spec-val">Live Online + LMS Recorded</span></div>
       <div class="spec-row"><span class="spec-key">Contact</span><span class="spec-val">+91-6394049607</span></div>
     </div>
-    <div class="spec-card" style="--mod-color:var(--accent-green)">
-      <h3>≡ƒÄü Bonuses Included</h3>
+    <div class="spec-card reveal" style="--mod-color:var(--accent-green)">
+      <h3>≡ƒÄü Syllabus bonuses</h3>
       <div class="spec-row"><span class="spec-key">Lab Exercises</span><span class="spec-val">Expert-designed HOLs</span></div>
       <div class="spec-row"><span class="spec-key">Video Access</span><span class="spec-val">Lifetime LMS access</span></div>
       <div class="spec-row"><span class="spec-key">Interview Prep</span><span class="spec-val">Q&A + Strategy Sessions</span></div>
@@ -373,14 +530,15 @@ body{background:var(--bg-primary);color:var(--text-primary);font-family:'Plus Ja
       <div class="spec-row"><span class="spec-key">Community</span><span class="spec-val">FREE Lifetime WhatsApp</span></div>
       <div class="spec-row"><span class="spec-key">Bonus</span><span class="spec-val">CellCLI Cracked VM Access</span></div>
     </div>
-    <div class="spec-card" style="--mod-color:var(--accent-cyan)">
-      <h3>≡ƒÅà Certification Target</h3>
-      <div class="spec-row"><span class="spec-key">Exam</span><span class="spec-val">1Z0-1085</span></div>
-      <div class="spec-row"><span class="spec-key">Title</span><span class="spec-val">OCI Architect Associate</span></div>
-      <div class="spec-row"><span class="spec-key">Questions</span><span class="spec-val">60 Multiple Choice</span></div>
-      <div class="spec-row"><span class="spec-key">Duration</span><span class="spec-val">90 Minutes</span></div>
-      <div class="spec-row"><span class="spec-key">Pass Mark</span><span class="spec-val">65%</span></div>
-      <div class="spec-row"><span class="spec-key">Platform</span><span class="spec-val">Pearson VUE / Oracle MyLearn</span></div>
+    <div class="spec-card reveal" style="--mod-color:var(--accent-cyan)">
+      <h3>≡ƒÅà Oracle certification alignment</h3>
+      <div class="spec-row"><span class="spec-key">Typical target</span><span class="spec-val">OCI Architect Associate</span></div>
+      <div class="spec-row"><span class="spec-key">Exam code</span><span class="spec-val">1Z0-1085 (verify)</span></div>
+      <div class="spec-row"><span class="spec-key">Format</span><span class="spec-val">Per Oracle MyLearn listing</span></div>
+      <div class="spec-row"><span class="spec-key">Duration</span><span class="spec-val">Per Oracle policy</span></div>
+      <div class="spec-row"><span class="spec-key">Passing score</span><span class="spec-val">Set by OracleΓÇöconfirm before booking</span></div>
+      <div class="spec-row"><span class="spec-key">Booking</span><span class="spec-val">Pearson VUE / Oracle MyLearn</span></div>
+      <p style="font-size:11px;color:var(--text-muted);margin-top:12px;line-height:1.5;">Oracle controls exam names, item counts, and cut scores. This portal prepares you on OCI services; it does not guarantee a pass or certification.</p>
     </div>
   </div>
 </div>
@@ -461,8 +619,8 @@ body{background:var(--bg-primary);color:var(--text-primary);font-family:'Plus Ja
      Γòæ  SCHEDULE               Γòæ
      ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥ -->
 <div id="p-schedule" class="panel">
-  <div class="sec-hdr"><h2>Course Schedule ΓÇö Weekday Batches</h2><span class="badge badge-green">50 Hours</span></div>
-  <div class="info"><strong>Schedule Design:</strong> 50 hours across 10 weeks, MonΓÇôFri sessions. Morning: 7AMΓÇô9AM IST or Evening: 7PMΓÇô9PM IST (batch-specific). Color coding: <span style="color:var(--mod-overview)">Γûá</span> Overview <span style="color:var(--mod-iam)">Γûá</span> IAM <span style="color:var(--mod-net)">Γûá</span> Networking <span style="color:var(--mod-compute)">Γûá</span> Compute <span style="color:var(--mod-storage)">Γûá</span> Storage <span style="color:var(--mod-db)">Γûá</span> Database <span style="color:var(--mod-exadata)">Γûá</span> Exadata Bonus</div>
+  <div class="sec-hdr reveal"><h2>Course schedule ΓÇö weekday batches</h2><span class="badge badge-green">50 Hours</span></div>
+  <div class="info"><strong>Reading this path:</strong> Sequencing mirrors the ExaGuru OCI Architect Associate syllabus (50 hours). Many weekday batches spread topics across <em>about</em> ten weeks; exact calendars and session slots (morning vs evening IST) varyΓÇöconfirm with ExaGuru. Colors: <span style="color:var(--mod-overview)">Γûá</span> Overview <span style="color:var(--mod-iam)">Γûá</span> IAM <span style="color:var(--mod-net)">Γûá</span> Networking <span style="color:var(--mod-compute)">Γûá</span> Compute / LB <span style="color:var(--mod-storage)">Γûá</span> Storage <span style="color:var(--mod-db)">Γûá</span> Database <span style="color:var(--mod-exadata)">Γûá</span> Exadata bonus</div>
   <div class="week-grid">
     <div class="week-card">
       <div class="week-hdr" style="background:rgba(21,101,192,.08);border-bottom:1px solid var(--border)">
@@ -525,32 +683,28 @@ body{background:var(--bg-primary);color:var(--text-primary);font-family:'Plus Ja
       </div>
     </div>
     <div class="week-card">
-      <div class="week-hdr" style="background:rgba(245,158,11,.08);border-bottom:1px solid var(--border)">
-        <div class="wk-num" style="background:var(--mod-compute)">5</div>
-        <div><div class="wk-title">OCI Compute ΓÇö Advanced + Load Balancer</div><div class="wk-date">Week 5 ΓÇö Mon to Fri</div></div>
+      <div class="week-hdr" style="background:linear-gradient(90deg,rgba(52,211,153,.12),rgba(245,158,11,.1));border-bottom:1px solid var(--border)">
+        <div class="wk-num" style="background:linear-gradient(135deg,var(--mod-storage),var(--mod-compute))">5</div>
+        <div><div class="wk-title">Block, Object &amp; File + Load Balancer</div><div class="wk-date">Week 5 ΓÇö Mon to Fri (typical)</div></div>
       </div>
       <div class="week-body">
         <div class="day-sessions">
-          <div class="session-chip"><span class="level-dot" style="background:var(--mod-compute)"></span>HA, DR, Fault Domains, Instance Pools</div>
-          <div class="session-chip"><span class="level-dot" style="background:var(--mod-compute)"></span>Custom Images, Import/Export, BYOH (OVM/KVM)</div>
-          <div class="session-chip"><span class="level-dot" style="background:var(--mod-compute)"></span>Cloud-Init, Instance Metadata, Console Connections</div>
-          <div class="session-chip"><span class="level-dot" style="background:var(--mod-compute)"></span>Load Balancer: Public vs Private, Policies, Health Checks</div>
-          <div class="session-chip"><span class="level-dot" style="background:var(--mod-compute)"></span>≡ƒö¼ Lab: Load Balancer with Backend Set + Listener</div>
+          <div class="session-chip"><span class="level-dot" style="background:var(--mod-storage)"></span>Block, object, and file servicesΓÇöattach/detach, tiers, FSS paths &amp; security (syllabus order)</div>
+          <div class="session-chip"><span class="level-dot" style="background:var(--mod-compute)"></span>Load balancer concepts: public vs private, policies, health checks, shapes, traffic distribution</div>
+          <div class="session-chip"><span class="level-dot" style="background:var(--mod-compute)"></span>≡ƒö¼ Lab: VCN + public subnets + web servers + LB + route tables + backend sets + listeners + allow traffic</div>
         </div>
       </div>
     </div>
     <div class="week-card">
-      <div class="week-hdr" style="background:rgba(16,185,129,.08);border-bottom:1px solid var(--border)">
-        <div class="wk-num" style="background:var(--mod-storage)">6</div>
-        <div><div class="wk-title">Block, Object & File Storage</div><div class="wk-date">Week 6 ΓÇö Mon to Fri</div></div>
+      <div class="week-hdr" style="background:rgba(245,158,11,.08);border-bottom:1px solid var(--border)">
+        <div class="wk-num" style="background:var(--mod-compute)">6</div>
+        <div><div class="wk-title">Advanced OCI compute</div><div class="wk-date">Week 6 ΓÇö Mon to Fri (typical)</div></div>
       </div>
       <div class="week-body">
         <div class="day-sessions">
-          <div class="session-chip"><span class="level-dot" style="background:var(--mod-storage)"></span>Block Storage: Attach, Detach, Backup, Clone</div>
-          <div class="session-chip"><span class="level-dot" style="background:var(--mod-storage)"></span>Block Volume Performance, Security, iSCSI/Paravirtualized</div>
-          <div class="session-chip"><span class="level-dot" style="background:var(--mod-storage)"></span>Object Storage: Tiers, Pre-Auth Requests, Lifecycle</div>
-          <div class="session-chip"><span class="level-dot" style="background:var(--mod-storage)"></span>File Storage Service: Paths, Security, Use Cases</div>
-          <div class="session-chip"><span class="level-dot" style="background:var(--mod-storage)"></span>≡ƒö¼ Lab: Block + Object Storage end-to-end</div>
+          <div class="session-chip"><span class="level-dot" style="background:var(--mod-compute)"></span>HA, DR, fault domains, instance pools &amp; configurations</div>
+          <div class="session-chip"><span class="level-dot" style="background:var(--mod-compute)"></span>Custom images, import/export, console connections, BYOH (OVM/KVM/Hyper-V)</div>
+          <div class="session-chip"><span class="level-dot" style="background:var(--mod-compute)"></span>Cloud-init, metadata, compatibility notes for custom images</div>
         </div>
       </div>
     </div>
@@ -993,9 +1147,11 @@ function resetQuiz(){
 </div><!-- /main -->
 
 <div class="footer">
-  ExaGuru ΓÇö OCI Architect Associate Training &nbsp;|&nbsp;
-  <a href="mailto:support@exaguru.com">support@exaguru.com</a> &nbsp;|&nbsp;
-  +91-6394049607 &nbsp;|&nbsp; ┬⌐2026 ExaGuru. All rights reserved.
+  ExaGuru ΓÇö Oracle Cloud Infrastructure learning programs &nbsp;|&nbsp;
+  <span>support@exaguru.com</span> &nbsp;|&nbsp;
+  +91-6394049607 &nbsp;|&nbsp;
+  Course materials ┬⌐ ExaGuru; Oracle Cloud and OCI are trademarks of Oracle and/or its affiliates. Used here for educational description only. &nbsp;|&nbsp;
+  ┬⌐ 2026 ExaGuru. All rights reserved.
 </div>
 
 <script>
@@ -1022,6 +1178,19 @@ function switchTab(id){
   const activeBtn=document.querySelector(`.tab-btn[data-tab="${id}"]`);
   if(activeBtn)activeBtn.scrollIntoView({behavior:'smooth',block:'nearest',inline:'center'});
 }
+// Scroll-driven reveals (respect reduced motion inside CSS too)
+(function(){
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  const obs=new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if(!entry.isIntersecting)return;
+      entry.target.classList.add('reveal-in');
+      obs.unobserve(entry.target);
+    });
+  },{rootMargin:'0px 0px -6% 0px',threshold:0.08});
+  document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el);});
+})();
+
 // QUIZ
 function answerQ(el,correct){
   const opts=el.closest('.quiz-opts').querySelectorAll('.quiz-opt');
@@ -1043,7 +1212,7 @@ function toggleCheck(el){
 
 <!-- OCI AI AGENT -->
 <style>
-.exai-bubble{position:fixed;bottom:24px;right:24px;width:58px;height:58px;border-radius:50%;background:linear-gradient(135deg,#1565C0,#8b5cf6);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:24px;z-index:9999;box-shadow:0 4px 24px rgba(21,101,192,.5);transition:transform .2s;animation:bubblePulse 3s ease-in-out infinite;}
+.exai-bubble{position:fixed;bottom:24px;right:24px;width:58px;height:58px;border-radius:50%;background:linear-gradient(145deg,#0b6bcb,#0f766e);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:24px;z-index:9999;box-shadow:0 4px 24px rgba(11,107,203,.45);transition:transform .2s;animation:bubblePulse 3s ease-in-out infinite;}
 .exai-bubble:hover{transform:scale(1.1);}
 @keyframes bubblePulse{0%,100%{box-shadow:0 4px 24px rgba(21,101,192,.5);}50%{box-shadow:0 4px 40px rgba(21,101,192,.8),0 0 0 8px rgba(21,101,192,.1);}}
 .exai-bubble .live-dot{position:absolute;top:2px;right:2px;width:13px;height:13px;border-radius:50%;background:#10b981;border:2px solid #080d1a;animation:pulse 2s infinite;}
